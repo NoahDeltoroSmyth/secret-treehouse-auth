@@ -9,13 +9,11 @@ export default function Login() {
   const location = useLocation();
   const auth = useAuth();
   const { formState, handleFormChange } = useForm({ email: '', password: '' });
-  console.log('formState', formState);
   const [error, setError] = useState(null);
 
   // The `from` property of `location.state` gives us
   // the URL to redirect to after logging in.
   const { from } = location.state || { from: { pathname: '/' } };
-  console.log('from', from);
 
   const handleLogin = (event) => {
     event.preventDefault();
