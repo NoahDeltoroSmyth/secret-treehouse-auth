@@ -20,7 +20,6 @@ exports[`should allow the user to log in 1`] = `
       type="email"
       value=""
     />
-     
     <label
       for="password"
     >
