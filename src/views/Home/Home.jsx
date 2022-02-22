@@ -11,9 +11,7 @@ export default function Home() {
           Enter Treehouse
         </Link>
       </h1>
-      <Link to="/treehouse/members">
-        See who's in the Treehouse
-      </Link>
+      <Link to="/treehouse/members">See who's in the Treehouse</Link>
     </>
   );
 }
